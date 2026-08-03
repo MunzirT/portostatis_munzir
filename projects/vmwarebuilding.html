@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMware & Enterprise Server Deployment - Munzir Tamam</title>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+    <header id="main-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-2xs">
+
+        <nav class="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-20 transition-all duration-300" id="main-nav" aria-label="Main Navigation">
+
+            <a href="../index.html" class="text-2xl font-bold tracking-tight text-slate-900">
+                Munzir<span class="text-blue-600">.</span>
+            </a>
+
+            <ul class="hidden md:flex items-center space-x-10 text-base font-bold text-slate-600">
+                <li><a href="../index.html" class="hover:text-slate-900 transition-colors">Home</a></li>
+                <li><a href="../experience.html" class="hover:text-slate-900 transition-colors">Experience</a></li>
+                <li><a href="../skills.html" class="hover:text-slate-900 transition-colors">Skills</a></li>
+                <li><a href="../projects.html" class="text-blue-600">Projects</a></li>
+            </ul>
+
+            <div class="hidden md:block">
+                <a href="../contact.html" class="px-6 py-3 rounded-xl text-sm font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/20 transition-all">
+                    Hire Me
+                </a>
+            </div>
+
+            <button id="menu-toggle" class="md:hidden p-2 rounded-xl border border-slate-200 bg-slate-50 text-slate-700 font-bold cursor-pointer">
+                &#9776;
+            </button>
+
+        </nav>
+
+        <menu id="mobile-menu" class="hidden max-w-7xl mx-auto px-4 sm:px-8 pb-6 flex flex-col space-y-4 text-base font-bold text-slate-700 border-t border-slate-100 pt-4 md:hidden">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../experience.html">Experience</a></li>
+            <li><a href="../skills.html">Skills</a></li>
+            <li><a href="../projects.html" class="text-blue-600">Projects</a></li>
+            <li class="pt-2">
+                <a href="../contact.html" class="block text-center w-full py-3 rounded-xl bg-blue-600 text-white">Hire Me</a>
+            </li>
+        </menu>
+
+    </header>
+
+    <main class="pt-24 min-h-[calc(100vh-10rem)]">
+    <div class="bg-slate-50/50 min-h-screen pb-20 px-4 sm:px-8">
+        <article class="max-w-6xl mx-auto">
+
+            <!-- Breadcrumb Navigation -->
+            <nav aria-label="Breadcrumb" class="flex items-center gap-2 text-xs font-semibold text-slate-400 mb-6 uppercase tracking-wider pt-4">
+                <a href="../projects.html" class="hover:text-blue-600 transition-colors">Projects</a>
+                <span aria-hidden="true">&gt;</span>
+                <span class="text-slate-700">VMware &amp; Server Deployment</span>
+            </nav>
+
+            <!-- Main Header -->
+            <header class="mb-10">
+                <p class="flex items-center gap-3 mb-3">
+                    <span class="px-3 py-1 bg-blue-100 text-blue-700 font-bold text-xs rounded-full uppercase tracking-wider">ENTERPRISE DEPLOYMENT</span>
+                    <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Virtualization &amp; Baremetal</span>
+                </p>
+                <h1 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
+                    VMware ESXi &amp; Enterprise Server Building
+                </h1>
+                <p class="mt-4 text-slate-600 text-lg leading-relaxed max-w-3xl">
+                    Full-stack physical server deployment, hardware assembly, RAID controller configuration, and VMware ESXi / vCenter virtualization setup for high-availability enterprise environments.
+                </p>
+            </header>
+
+            <!-- Feature Showcase Card -->
+            <section class="relative mb-16 rounded-3xl overflow-hidden bg-slate-900 border border-slate-800 p-8 sm:p-12 text-white shadow-xl">
+                <div class="max-w-3xl space-y-4">
+                    <span class="px-3 py-1 bg-blue-600/30 text-blue-400 border border-blue-500/30 font-bold text-xs rounded-md uppercase tracking-wider">High Availability Virtualization</span>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight">Standardized Baremetal &amp; Hypervisor Integration</h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        Building physical server infrastructure from ground up. Focusing on optimal RAID arrays, high DWPD enterprise SSD endurance, iDRAC/out-of-band management, and VMware vSphere cluster orchestration.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Content Details Grid -->
+            <section class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+
+                <!-- Main Details Area -->
+                <section class="lg:col-span-2 space-y-10">
+
+                    <!-- Project Overview -->
+                    <article class="space-y-4">
+                        <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-3">
+                            <span class="w-8 h-1 bg-blue-600 rounded-full inline-block" aria-hidden="true"></span>
+                            Project Overview
+                        </h2>
+                        <section class="prose prose-slate max-w-none text-slate-600 leading-relaxed text-base space-y-4">
+                            <p>
+                                This project covers the complete lifecycle of baremetal server assembly, storage array setup, and hypervisor deployment. Designed to meet strict enterprise SLAs, the infrastructure provides maximum compute efficiency, fault tolerance, and seamless VM live migration.
+                            </p>
+                            <p>
+                                Key implementation phases focus on hardware-level stability before deploying **VMware ESXi** and **vCenter Server Appliance (VCSA)** for centralized cluster management:
+                            </p>
+                            <ul class="list-disc pl-5 space-y-2 font-medium text-slate-700">
+                                <li><strong>Hardware Configuration &amp; iDRAC:</strong> Configuring out-of-band remote management (iDRAC), updating firmware matrices, and setting up thermal threshold alerts.</li>
+                                <li><strong>Storage &amp; RAID Optimization:</strong> Designing RAID 1/10 for boot OS and high-performance RAID 5/6 configurations using enterprise-grade SSDs (3 DWPD endurance).</li>
+                                <li><strong>vSphere Cluster Deployment:</strong> Installing VMware ESXi hosts, configuring virtual switches (vSwitch/vDS), VLAN tagging, and vCenter cluster integration.</li>
+                            </ul>
+                        </section>
+                    </article>
+
+                    <!-- Key Implementation Highlights -->
+                    <article class="space-y-4 pt-4">
+                        <h3 class="text-xl font-bold text-slate-900">Key Implementation Highlights</h3>
+                        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none p-0">
+                            <li class="p-5 bg-white rounded-2xl border border-slate-200/80 shadow-2xs">
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">&#128451;&#65039; Baremetal &amp; RAID Setup</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Configured hardware RAID controllers with write-back cache, drive patrol reads, and enterprise SSD wear-leveling protection.</p>
+                            </li>
+                            <li class="p-5 bg-white rounded-2xl border border-slate-200/80 shadow-2xs">
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">&#9729;&#65039; VMware vSphere Infrastructure</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Deployed ESXi hypervisors joined to vCenter Server for HA (High Availability) and vMotion resource balancing.</p>
+                            </li>
+                            <li class="p-5 bg-white rounded-2xl border border-slate-200/80 shadow-2xs">
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">&#127760; Virtual Networking &amp; VLANs</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Set up isolated virtual port groups, NIC teaming, and trunk lines for management, vMotion, and production traffic.</p>
+                            </li>
+                            <li class="p-5 bg-white rounded-2xl border border-slate-200/80 shadow-2xs">
+                                <h4 class="font-bold text-slate-900 text-sm mb-1">&#128274; Remote Management &amp; Security</h4>
+                                <p class="text-xs text-slate-500 leading-relaxed">Secured iDRAC / OOB management interfaces and configured lockdown modes for hardened host security.</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <!-- Environment Cards -->
+                    <section class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4">
+                        <article class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-2xs">
+                            <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-2 mb-4">
+                                <span aria-hidden="true">&#9881;&#65039;</span> Hardware &amp; Storage
+                            </h3>
+                            <dl class="space-y-3 text-xs font-bold">
+                                <div class="flex justify-between border-b border-slate-100 pb-2">
+                                    <dt class="text-slate-500">DRIVE ENDURANCE</dt>
+                                    <dd class="text-slate-900 font-extrabold">3 DWPD Enterprise SSD</dd>
+                                </div>
+                                <div class="flex justify-between border-b border-slate-100 pb-2">
+                                    <dt class="text-slate-500">RAID ARRAYS</dt>
+                                    <dd class="text-slate-900 font-extrabold">RAID 1, RAID 5, RAID 10</dd>
+                                </div>
+                                <div class="flex justify-between">
+                                    <dt class="text-slate-500">REMOTE MGMT</dt>
+                                    <dd class="text-blue-600 font-extrabold">iDRAC Console / OOB</dd>
+                                </div>
+                            </dl>
+                        </article>
+
+                        <article class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-2xs">
+                            <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-2 mb-4">
+                                <span aria-hidden="true">&lt;&gt;</span> Core Software Stack
+                            </h3>
+                            <ul class="flex flex-wrap gap-2 list-none p-0">
+                                <li class="px-2.5 py-1 bg-slate-100 border border-slate-200 text-slate-700 rounded-md text-xs font-bold">VMware ESXi</li>
+                                <li class="px-2.5 py-1 bg-slate-100 border border-slate-200 text-slate-700 rounded-md text-xs font-bold">vCenter Server (VCSA)</li>
+                                <li class="px-2.5 py-1 bg-slate-100 border border-slate-200 text-slate-700 rounded-md text-xs font-bold">Proxmox VE</li>
+                                <li class="px-2.5 py-1 bg-slate-100 border border-slate-200 text-slate-700 rounded-md text-xs font-bold">LVM Storage</li>
+                            </ul>
+                        </article>
+                    </section>
+
+                </section>
+
+                <!-- Right Sidebar: Technical Specifications -->
+                <aside class="bg-white p-6 rounded-2xl border border-slate-200/80 shadow-2xs space-y-6 lg:sticky lg:top-28">
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-wider">
+                        Technical Specifications
+                    </h3>
+
+                    <section class="space-y-2">
+                        <h4 class="text-xs font-bold text-slate-900">Virtualization Platform</h4>
+                        <ul class="flex flex-wrap gap-1.5 list-none p-0">
+                            <li class="px-2.5 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold rounded">VMware ESXi 7.0/8.0</li>
+                            <li class="px-2.5 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold rounded">vCenter Server</li>
+                        </ul>
+                    </section>
+
+                    <section class="space-y-2">
+                        <h4 class="text-xs font-bold text-slate-900">Server Hardware</h4>
+                        <ul class="flex flex-wrap gap-1.5 list-none p-0">
+                            <li class="px-2.5 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold rounded">Enterprise Rack Servers</li>
+                            <li class="px-2.5 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold rounded">Dell iDRAC</li>
+                        </ul>
+                    </section>
+
+                    <section class="space-y-2">
+                        <h4 class="text-xs font-bold text-slate-900">Storage Technologies</h4>
+                        <ul class="flex flex-wrap gap-1.5 list-none p-0">
+                            <li class="px-2.5 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold rounded">Hardware RAID</li>
+                            <li class="px-2.5 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold rounded">Enterprise SSDs</li>
+                            <li class="px-2.5 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs font-semibold rounded">Datastore VMFS</li>
+                        </ul>
+                    </section>
+
+                    <hr class="border-slate-100">
+
+                    <a href="mailto:munzirt07@gmail.com" class="w-full py-3.5 px-4 rounded-xl border border-blue-200 bg-blue-50 hover:bg-blue-100 text-blue-700 font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 transition-colors">
+                        <span aria-hidden="true">&#9993;&#65039;</span> Discuss Infrastructure Architecture
+                    </a>
+                </aside>
+
+            </section>
+
+        </article>
+    </div>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-slate-50 py-10 text-sm text-slate-500 font-semibold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span class="text-base font-bold text-slate-900">Munzir.</span>
+            <p>&copy; 2026 Munzir Tamam. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a href="https://www.linkedin.com/in/munzirtamam" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">LinkedIn</a>
+                <a href="https://github.com/MunzirT" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">GitHub</a>
+                <a href="https://www.instagram.com/hipopotamam" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">Instagram</a>
+                <a href="mailto:munzirt07@gmail.com" class="hover:text-slate-900 transition-colors">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+</body>
+</html>
