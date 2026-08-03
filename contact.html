@@ -1,0 +1,140 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munzir Tamam - Professional System Engineer</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+    <header id="main-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-2xs">
+
+        <nav class="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-20 transition-all duration-300" id="main-nav" aria-label="Main Navigation">
+
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-slate-900">
+                Munzir<span class="text-blue-600">.</span>
+            </a>
+
+            <ul class="hidden md:flex items-center space-x-10 text-base font-bold text-slate-600">
+                <li><a href="index.html" class="hover:text-slate-900 transition-colors">Home</a></li>
+                <li><a href="experience.html" class="hover:text-slate-900 transition-colors">Experience</a></li>
+                <li><a href="skills.html" class="hover:text-slate-900 transition-colors">Skills</a></li>
+                <li><a href="projects.html" class="hover:text-slate-900 transition-colors">Projects</a></li>
+                <li><a href="contact.html" class="text-blue-600">Contact</a></li>
+            </ul>
+
+            <div class="hidden md:block">
+                <a href="contact.html" class="px-6 py-3 rounded-xl text-sm font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/20 transition-all">
+                    Hire Me
+                </a>
+            </div>
+
+            <button id="menu-toggle" class="md:hidden p-2 rounded-xl border border-slate-200 bg-slate-50 text-slate-700 font-bold cursor-pointer">
+                &#9776;
+            </button>
+
+        </nav>
+
+        <menu id="mobile-menu" class="hidden max-w-7xl mx-auto px-4 sm:px-8 pb-6 flex flex-col space-y-4 text-base font-bold text-slate-700 border-t border-slate-100 pt-4 md:hidden">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="text-blue-600">Contact</a></li>
+            <li class="pt-2">
+                <a href="contact.html" class="block text-center w-full py-3 rounded-xl bg-blue-600 text-white">Hire Me</a>
+            </li>
+        </menu>
+
+    </header>
+
+    <main class="pt-24 min-h-[calc(100vh-10rem)]">
+
+        <section class="max-w-7xl mx-auto px-4 sm:px-8 pt-24 pb-20 grid gap-16 md:grid-cols-2 items-start">
+
+            <aside class="flex flex-col justify-between h-full">
+                <header>
+                    <span class="inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-bold bg-blue-50 text-blue-600 border border-blue-100 uppercase tracking-wider mb-6">
+                        Get In Touch
+                    </span>
+                    <h1 class="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                        Let's connect.
+                    </h1>
+                    <p class="mt-6 text-xl text-slate-500 leading-relaxed max-w-xl">
+                        Whether you have a question about a system configuration, want to discuss an infrastructure deployment, or just want to say hello, I'd love to hear from you.
+                    </p>
+                </header>
+
+                <address class="mt-12 not-italic border-t border-slate-200 pt-8 space-y-6 text-lg font-medium text-slate-600">
+                    <p class="flex items-center gap-3">
+                        <span class="text-blue-600 font-bold" aria-hidden="true">&#9993;&#65039;</span>
+                        <a href="mailto:munzirt07@gmail.com" class="text-slate-900 font-bold hover:text-blue-600 transition-colors">munzirt07@gmail.com</a>
+                    </p>
+                    <p class="flex items-center gap-3">
+                        <span class="text-blue-600 font-bold" aria-hidden="true">&#127760;</span>
+                        <span>Jakarta, Indonesia</span>
+                    </p>
+                </address>
+
+                <footer class="mt-12 flex gap-6 text-base font-bold text-slate-400">
+                    <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">LinkedIn</a>
+                    <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">GitHub</a>
+                    <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">Instagram</a>
+                </footer>
+            </aside>
+
+            <!-- FORMULIR STATIS via FormSubmit.co -->
+            <form action="https://formsubmit.co/munzirt07@gmail.com" method="POST" class="bg-slate-50/60 p-8 sm:p-10 rounded-3xl border border-slate-200/80 shadow-2xs space-y-8">
+
+                <input type="hidden" name="_subject" value="New Inquiry from Portfolio Website!">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_captcha" value="false">
+
+                <p class="flex flex-col space-y-2.5">
+                    <label for="name" class="text-base font-bold text-slate-800">Your Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe"
+                        class="w-full px-5 py-4 bg-white border border-slate-200 rounded-xl text-base font-medium placeholder-slate-400 focus:outline-hidden focus:border-blue-600 focus:ring-4 focus:ring-blue-100 transition-all">
+                </p>
+
+                <p class="flex flex-col space-y-2.5">
+                    <label for="email" class="text-base font-bold text-slate-800">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com"
+                        class="w-full px-5 py-4 bg-white border border-slate-200 rounded-xl text-base font-medium placeholder-slate-400 focus:outline-hidden focus:border-blue-600 focus:ring-4 focus:ring-blue-100 transition-all">
+                </p>
+
+                <p class="flex flex-col space-y-2.5">
+                    <label for="message" class="text-base font-bold text-slate-800">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Describe your project or inquiry in detail..."
+                        class="w-full px-5 py-4 bg-white border border-slate-200 rounded-xl text-base font-medium placeholder-slate-400 focus:outline-hidden focus:border-blue-600 focus:ring-4 focus:ring-blue-100 transition-all resize-none"></textarea>
+                </p>
+
+                <footer class="pt-2">
+                    <button type="submit"
+                        class="w-full py-4 px-6 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-base shadow-lg shadow-blue-600/10 transition-all transform hover:-translate-y-0.5 cursor-pointer">
+                        Send Message
+                    </button>
+                </footer>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-200 bg-slate-50 py-10 text-sm text-slate-500 font-semibold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span class="text-base font-bold text-slate-900">Munzir.</span>
+            <p>&copy; 2026 Munzir Tamam. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">LinkedIn</a>
+                <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">GitHub</a>
+                <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">Instagram</a>
+                <a href="mailto:munzirt07@gmail.com" class="hover:text-slate-900 transition-colors">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html> -->

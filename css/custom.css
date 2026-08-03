@@ -1,0 +1,28 @@
+/* Slider states (used with static/js/main.js, replaces the previous Alpine.js x-show sliders) */
+[data-slide] {
+    display: none;
+}
+
+[data-slide].slide-active {
+    display: block;
+}
+
+[data-slider-dots] button {
+    width: 0.625rem;
+    height: 0.625rem;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+[data-slider-dots] button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+[data-slider-dots] button.slide-dot-active {
+    background-color: var(--color-blue-500, #2b7fff);
+    width: 1.5rem;
+}

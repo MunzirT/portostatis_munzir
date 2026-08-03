@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munzir Tamam - Professional System Engineer</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+    <header id="main-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-2xs">
+
+        <nav class="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-20 transition-all duration-300" id="main-nav" aria-label="Main Navigation">
+
+            <a href="index.html" class="text-2xl font-bold tracking-tight text-slate-900">
+                Munzir<span class="text-blue-600">.</span>
+            </a>
+
+            <ul class="hidden md:flex items-center space-x-10 text-base font-bold text-slate-600">
+                <li><a href="index.html" class="hover:text-slate-900 transition-colors">Home</a></li>
+                <li><a href="experience.html" class="text-blue-600">Experience</a></li>
+                <li><a href="skills.html" class="hover:text-slate-900 transition-colors">Skills</a></li>
+                <li><a href="projects.html" class="hover:text-slate-900 transition-colors">Projects</a></li>
+                <!-- <li><a href="contact.html" class="hover:text-slate-900 transition-colors">Contact</a></li> -->
+            </ul>
+
+            <div class="hidden md:block">
+                <a href="contact.html" class="px-6 py-3 rounded-xl text-sm font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/20 transition-all">
+                    Hire Me
+                </a>
+            </div>
+
+            <button id="menu-toggle" class="md:hidden p-2 rounded-xl border border-slate-200 bg-slate-50 text-slate-700 font-bold cursor-pointer">
+                &#9776;
+            </button>
+
+        </nav>
+
+        <menu id="mobile-menu" class="hidden max-w-7xl mx-auto px-4 sm:px-8 pb-6 flex flex-col space-y-4 text-base font-bold text-slate-700 border-t border-slate-100 pt-4 md:hidden">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html" class="text-blue-600">Experience</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li> -->
+            <li class="pt-2">
+                <a href="contact.html" class="block text-center w-full py-3 rounded-xl bg-blue-600 text-white">Hire Me</a>
+            </li>
+        </menu>
+
+    </header>
+
+    <main class="pt-24 min-h-[calc(100vh-10rem)]">
+
+        <!-- 1. HERO TITLE SECTION -->
+        <section class="bg-white pt-24 pb-14 px-4 sm:px-8 relative z-10">
+            <article class="max-w-7xl mx-auto text-left">
+                <span class="inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-bold bg-blue-50 text-blue-600 border border-blue-100 uppercase tracking-wider mb-6">
+                    Professional Overview
+                </span>
+                <h1 class="text-4xl sm:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                    Building Reliable Systems &amp; <br>Infrastructure.
+                </h1>
+                <p class="mt-6 text-xl sm:text-2xl text-slate-500 max-w-5xl leading-relaxed">
+                    Dedicated System Engineer with extensive expertise in baremetal orchestration, virtualization technologies, and large-scale infrastructure optimization for mission-critical environments.
+                </p>
+            </article>
+        </section>
+
+        <!-- 2. WIDE ZIGZAG TIMELINE -->
+        <section class="py-16 bg-white relative overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-8 relative">
+
+                <div class="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-slate-200 hidden md:block" aria-hidden="true"></div>
+
+                <ol class="space-y-20 relative list-none">
+
+                    <!-- ROW 1: ITEM RIGHT -->
+                    <li class="flex flex-col md:flex-row items-center justify-between w-full relative">
+                        <header class="w-full md:w-[45%] hidden md:block text-right pr-12">
+                            <time class="text-lg font-bold text-slate-400 block">Mar 2026 &mdash; PRESENT</time>
+                            <span class="text-sm font-bold uppercase tracking-wider text-blue-600 mt-1 block">PT Tristan Utama Solutech</span>
+                        </header>
+
+                        <span class="absolute left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-xl bg-blue-900 text-white font-bold text-lg shadow-md flex items-center justify-center z-20 hidden md:flex" aria-hidden="true">+</span>
+
+                        <article class="w-full md:w-[46%] bg-slate-50/80 p-8 rounded-2xl border border-slate-200/80 shadow-2xs hover:shadow-md transition-shadow duration-300">
+                            <time class="text-sm font-bold text-blue-600 uppercase md:hidden block mb-3">Mar 2026 &mdash; PRESENT</time>
+                            <h3 class="text-2xl font-bold text-slate-900">System Engineer</h3>
+                            <p class="text-lg font-bold text-blue-600 mt-0.5">PT Tristan Utama Solutech</p>
+
+                            <ul class="mt-6 space-y-4 text-lg text-slate-600 font-medium">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Architected and integrated end-to-end IT infrastructure (servers, switches, and routers), provisioning 20+ VMs across VMware and Proxmox VE.</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Deployed multi-platform monitoring stack (PRTG, Zabbix, and Grafana), including dedicated PRTG setup for the ERI, E-AVIS, ETLE KORLANTAS POLRI system.</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Configured and integrated middleware/API solutions to ensure seamless communication and data flows across systems.</span>
+                                </li>
+                            </ul>
+
+                            <footer class="flex flex-wrap gap-2.5 mt-6 pt-4 border-t border-slate-200/60 text-xs font-bold text-slate-500">
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">Proxmox</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">Baremetal</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">Linux Kernel</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">NVMe</span>
+                            </footer>
+                        </article>
+                    </li>
+
+                    <!-- ROW 2: ITEM LEFT -->
+                    <li class="flex flex-col md:flex-row-reverse items-center justify-between w-full relative">
+                        <header class="w-full md:w-[45%] hidden md:block text-left pl-12">
+                            <time class="text-lg font-bold text-slate-400 block">May 2025 &mdash; March 2026</time>
+                            <span class="text-sm font-bold uppercase tracking-wider text-slate-500 mt-1 block">PT Equnix Business Solutions</span>
+                        </header>
+
+                        <span class="absolute left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-xl bg-blue-600 text-white font-bold text-lg shadow-md flex items-center justify-center z-20 hidden md:flex" aria-hidden="true">o</span>
+
+                        <article class="w-full md:w-[46%] bg-slate-50/80 p-8 rounded-2xl border border-slate-200/80 shadow-2xs hover:shadow-md transition-shadow duration-300">
+                            <time class="text-sm font-bold text-blue-600 uppercase md:hidden block mb-3">May 2025 &mdash; March 2026</time>
+                            <h3 class="text-2xl font-bold text-slate-900">IT Infrastructure</h3>
+                            <p class="text-lg font-bold text-blue-600 mt-0.5">PT Equnix Business Solutions</p>
+
+                            <ul class="mt-6 space-y-4 text-lg text-slate-600 font-medium">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Designed and migrated legacy workloads to VMware vSphere 7 environments with zero downtime.</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Implemented comprehensive monitoring using Prometheus/Grafana for real-time hardware health telemetry.</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Standardized server security hardening protocols across the entire data center footprints.</span>
+                                </li>
+                            </ul>
+
+                            <footer class="flex flex-wrap gap-2.5 mt-6 pt-4 border-t border-slate-200/60 text-xs font-bold text-slate-500">
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">VMware</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">vSphere</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">Grafana</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">SAN/NAS</span>
+                            </footer>
+                        </article>
+                    </li>
+
+                    <!-- ROW 3: ITEM RIGHT -->
+                    <li class="flex flex-col md:flex-row items-center justify-between w-full relative">
+                        <header class="w-full md:w-[45%] hidden md:block text-right pr-12">
+                            <time class="text-lg font-bold text-slate-400 block">February 2025 &mdash; May 2026</time>
+                            <span class="text-sm font-bold uppercase tracking-wider text-slate-500 mt-1 block">PT Equnix Business Solutions</span>
+                        </header>
+
+                        <span class="absolute left-1/2 transform -translate-x-1/2 w-10 h-10 rounded-xl bg-slate-400 text-white font-bold text-lg shadow-md flex items-center justify-center z-20 hidden md:flex" aria-hidden="true">&#10003;</span>
+
+                        <article class="w-full md:w-[46%] bg-slate-50/80 p-8 rounded-2xl border border-slate-200/80 shadow-2xs hover:shadow-md transition-shadow duration-300">
+                            <time class="text-sm font-bold text-blue-600 uppercase md:hidden block mb-3">February 2025 &mdash; May 2026</time>
+                            <h3 class="text-2xl font-bold text-slate-900">Support Engineer</h3>
+                            <p class="text-lg font-bold text-blue-600 mt-0.5">PT Equnix Business Solutions</p>
+
+                            <ul class="mt-6 space-y-4 text-lg text-slate-600 font-medium">
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Managed Linux-based server fleets (CentOS/Ubuntu), ensuring 99.9% uptime for client services.</span>
+                                </li>
+                                <li class="flex items-start gap-3">
+                                    <span class="text-blue-600 mt-0.5" aria-hidden="true">&#128311;</span>
+                                    <span>Automated routine backup and recovery operations using Bash and Python scripts.</span>
+                                </li>
+                            </ul>
+
+                            <footer class="flex flex-wrap gap-2.5 mt-6 pt-4 border-t border-slate-200/60 text-xs font-bold text-slate-500">
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">Linux Admin</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">Bash Scripting</span>
+                                <span class="px-3 py-1.5 bg-white border border-slate-200 rounded-lg shadow-2xs">Networking</span>
+                            </footer>
+                        </article>
+                    </li>
+
+                </ol>
+            </div>
+        </section>
+
+        <!-- 3. TECHNICAL CORE SECTION -->
+        <section class="py-24 bg-slate-50 border-t border-slate-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-8">
+
+                <header class="mb-16">
+                    <h2 class="text-3xl font-bold text-slate-900 tracking-tight sm:text-4xl">Technical Core</h2>
+                    <p class="text-lg text-slate-500 mt-2">Advanced competencies in infrastructure engineering.</p>
+                </header>
+
+                <div class="grid gap-8 md:grid-cols-3">
+
+                    <article class="bg-white p-8 rounded-2xl border border-slate-200 shadow-2xs flex flex-col justify-between md:col-span-2">
+                        <header>
+                            <div class="flex items-center gap-4 mb-6">
+                                <span class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center font-bold text-lg shadow-sm">01</span>
+                                <h3 class="text-xl font-bold text-slate-900">Server Configuration Fundamentals</h3>
+                            </div>
+                            <p class="text-lg text-slate-500 leading-relaxed">Experienced in hardware assembly, Linux OS installation, and basic Automated configuration, components PXE boot processes and basic RAID setup for single servers.</p>
+                        </header>
+
+                        <footer class="grid grid-cols-2 gap-6 mt-8 pt-6 border-t border-slate-100">
+                            <div>
+                                <span class="text-sm font-bold text-slate-400 uppercase tracking-wider block">Installation Time</span>
+                                <span class="text-3xl font-black text-slate-900 block mt-1.5">30 min</span>
+                            </div>
+                            <div>
+                                <span class="text-sm font-bold text-slate-400 uppercase tracking-wider block">Proficiency Level</span>
+                                <span class="text-3xl font-black text-blue-600 block mt-1.5">Advanced</span>
+                            </div>
+                        </footer>
+                    </article>
+
+                    <article class="bg-white p-8 rounded-2xl border border-slate-200 shadow-2xs flex flex-col justify-between">
+                        <header>
+                            <span class="w-12 h-12 rounded-xl bg-cyan-500 text-white flex items-center justify-center font-bold text-lg shadow-sm mb-6">02</span>
+                            <h3 class="text-xl font-bold text-slate-900">Core Virtualization</h3>
+                            <p class="text-lg text-slate-500 leading-relaxed mt-3">Adequately creating and managing Virtual Machines (VMs), configuring basic virtual networking, and handling virtual environment management on Proxmox platforms.</p>
+                        </header>
+                        <footer class="mt-8 pt-4 border-t border-slate-100 flex justify-between items-center text-sm font-bold text-blue-600">
+                            <span>Proxmox Masters</span>
+                            <span>Intermediate</span>
+                        </footer>
+                    </article>
+
+                    <article class="bg-white p-8 rounded-2xl border border-slate-200 shadow-2xs flex flex-col justify-between">
+                        <header>
+                            <span class="w-12 h-12 rounded-xl bg-orange-600 text-white flex items-center justify-center font-bold text-lg shadow-sm mb-6">03</span>
+                            <h3 class="text-xl font-bold text-slate-900">Security Essentials</h3>
+                            <p class="text-lg text-slate-500 leading-relaxed mt-3">Implementing basic firewall configurations, user management, and routine system updates to secure servers against common threats.</p>
+                        </header>
+                        <footer class="mt-8 pt-4 border-t border-slate-100">
+                            <span class="text-sm font-bold text-slate-400 uppercase tracking-wider block">Hardening Standard</span>
+                            <span class="text-base font-bold text-blue-600 block mt-1.5 hover:underline">protocols.cfg</span>
+                        </footer>
+                    </article>
+
+                    <article class="bg-blue-900 text-white p-8 rounded-2xl shadow-md md:col-span-2 flex items-center justify-between relative overflow-hidden group">
+                        <span class="absolute inset-0 bg-[radial-gradient(circle_at_80%_20%,rgba(255,255,255,0.08),transparent_40%)]" aria-hidden="true"></span>
+                        <header class="max-w-xl relative z-10">
+                            <h3 class="text-2xl font-bold">Automation &amp; Scripting</h3>
+                            <p class="text-lg text-blue-100 mt-3 leading-relaxed">Deepening knowledge in Infrastructure as Code concepts, utilizing Bash scripts and learning Ansible fundamentals to automate repetitive system administration tasks.</p>
+                        </header>
+                        <span class="w-16 h-16 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center text-3xl relative z-10 hidden sm:flex group-hover:rotate-12 transition-transform duration-300" aria-hidden="true">&#9881;</span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-200 bg-slate-50 py-10 text-sm text-slate-500 font-semibold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span class="text-base font-bold text-slate-900">Munzir.</span>
+            <p>&copy; 2026 Munzir Tamam. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">LinkedIn</a>
+                <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">GitHub</a>
+                <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">Instagram</a>
+                <a href="mailto:munzirt07@gmail.com" class="hover:text-slate-900 transition-colors">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

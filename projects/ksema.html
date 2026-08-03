@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSEMA Security System Architecture - Munzir Tamam</title>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+    <header id="main-header" class="fixed top-0 inset-x-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-2xs">
+
+        <nav class="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-20 transition-all duration-300" id="main-nav" aria-label="Main Navigation">
+
+            <a href="../index.html" class="text-2xl font-bold tracking-tight text-slate-900">
+                Munzir<span class="text-blue-600">.</span>
+            </a>
+
+            <ul class="hidden md:flex items-center space-x-10 text-base font-bold text-slate-600">
+                <li><a href="../index.html" class="hover:text-slate-900 transition-colors">Home</a></li>
+                <li><a href="../experience.html" class="hover:text-slate-900 transition-colors">Experience</a></li>
+                <li><a href="../skills.html" class="hover:text-slate-900 transition-colors">Skills</a></li>
+                <li><a href="../projects.html" class="text-blue-600">Projects</a></li>
+                <li><a href="../contact.html" class="hover:text-slate-900 transition-colors">Contact</a></li>
+            </ul>
+
+            <div class="hidden md:block">
+                <a href="../contact.html" class="px-6 py-3 rounded-xl text-sm font-bold bg-blue-600 hover:bg-blue-500 text-white shadow-lg shadow-blue-600/20 transition-all">
+                    Hire Me
+                </a>
+            </div>
+
+            <button id="menu-toggle" class="md:hidden p-2 rounded-xl border border-slate-200 bg-slate-50 text-slate-700 font-bold cursor-pointer">
+                &#9776;
+            </button>
+
+        </nav>
+
+        <menu id="mobile-menu" class="hidden max-w-7xl mx-auto px-4 sm:px-8 pb-6 flex flex-col space-y-4 text-base font-bold text-slate-700 border-t border-slate-100 pt-4 md:hidden">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../experience.html">Experience</a></li>
+            <li><a href="../skills.html">Skills</a></li>
+            <li><a href="../projects.html" class="text-blue-600">Projects</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li class="pt-2">
+                <a href="../contact.html" class="block text-center w-full py-3 rounded-xl bg-blue-600 text-white">Hire Me</a>
+            </li>
+        </menu>
+
+    </header>
+
+    <main class="pt-24 min-h-[calc(100vh-10rem)]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 py-10">
+
+        <!-- Tombol Kembali -->
+        <nav aria-label="Breadcrumb" class="mb-8">
+            <a href="../index.html" class="inline-flex items-center gap-2 text-sm font-semibold text-slate-600 hover:text-blue-600 transition-colors">
+                &larr; Back to Overview
+            </a>
+        </nav>
+
+        <!-- Header Proyek KSEMA -->
+        <header class="mb-10 pb-8 border-b border-slate-200">
+            <p class="flex items-center gap-3 mb-3">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-700 uppercase tracking-wider">DEPLOYED</span>
+                <span class="text-sm font-semibold text-slate-500">Systems Tech</span>
+            </p>
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                PIC off KSEMA Security System Architecture
+            </h1>
+            <p class="mt-2 text-lg text-slate-600 max-w-3xl">
+                Infrastructure provisioning and server designed for high-availability enterprise environments.
+            </p>
+        </header>
+
+        <!-- Layout Grid Utama -->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
+
+            <!-- Kolom Kiri: Image Slider & Overview -->
+            <article class="lg:col-span-2 space-y-8">
+
+                <!-- Slider (vanilla JS, see js/main.js) -->
+                <figure data-slider class="bg-white rounded-2xl shadow-xl shadow-slate-200/60 border border-slate-200/80 overflow-hidden m-0">
+
+                    <section class="relative aspect-video bg-slate-900 overflow-hidden">
+                        <article data-slide class="absolute inset-0">
+                            <img src="../images/KSEMA-1.jpg" alt="KSEMA Infrastructure Overview" class="w-full h-full object-cover">
+                            <figcaption class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-slate-950/80 to-transparent text-white">
+                                <h3 class="text-xl font-bold">KSEMA Infrastructure Overview</h3>
+                                <p class="text-sm text-slate-300 mt-1">System architecture and core deployment configuration.</p>
+                            </figcaption>
+                        </article>
+                        <article data-slide class="absolute inset-0">
+                            <img src="../images/KSEMA-2.jpg" alt="Network & Cluster Topology" class="w-full h-full object-cover">
+                            <figcaption class="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-slate-950/80 to-transparent text-white">
+                                <h3 class="text-xl font-bold">Network &amp; Cluster Topology</h3>
+                                <p class="text-sm text-slate-300 mt-1">High-availability nodes and automated resource management.</p>
+                            </figcaption>
+                        </article>
+
+                        <button data-slider-prev aria-label="Previous Slide" class="absolute left-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-slate-900/60 hover:bg-slate-900 text-white transition-all">&#10094;</button>
+                        <button data-slider-next aria-label="Next Slide" class="absolute right-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-slate-900/60 hover:bg-slate-900 text-white transition-all">&#10095;</button>
+                    </section>
+
+                    <footer class="p-4 bg-slate-50 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-slate-500">
+                        <span data-slider-counter></span>
+                    </footer>
+                </figure>
+
+                <!-- Deskripsi Detail Proyek -->
+                <section class="bg-white rounded-2xl p-8 border border-slate-200/80 shadow-xs space-y-6">
+                    <h2 class="text-2xl font-bold text-slate-900">Project Overview</h2>
+                    <p class="text-slate-600 leading-relaxed">
+                        Perancangan dan pengelolaan infrastruktur KSEMA difokuskan pada keandalan sistem, optimasi alokasi resource server, serta kemudahan manajemen operasi harian.
+                    </p>
+                    <section class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4 border-t border-slate-100">
+                        <article class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                            <h4 class="font-bold text-slate-900 text-sm">System Operations</h4>
+                            <p class="text-xs text-slate-500 mt-1">Infrastructure Provisioning, Network Routing, &amp; Monitoring</p>
+                        </article>
+                        <article class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                            <h4 class="font-bold text-slate-900 text-sm">Target Infrastructure</h4>
+                            <p class="text-xs text-slate-500 mt-1">Enterprise Servers, Linux Operating Systems, Network Trunks</p>
+                        </article>
+                    </section>
+                </section>
+            </article>
+
+            <!-- Kolom Kanan: Technologies & Capabilities -->
+            <aside class="space-y-8 lg:sticky lg:top-28">
+                <section class="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-xs space-y-6">
+                    <h3 class="text-lg font-bold text-slate-900 border-b border-slate-100 pb-4">Technologies Used</h3>
+                    <ul class="flex flex-wrap gap-2 list-none p-0">
+                        <li class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700">Linux Debian/Ubuntu</li>
+                        <li class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700">Networking &amp; Routing</li>
+                        <li class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700">Security Device by Thales</li>
+                    </ul>
+                </section>
+
+                <section class="bg-white rounded-2xl p-6 border border-slate-200/80 shadow-xs space-y-4">
+                    <h3 class="text-lg font-bold text-slate-900 border-b border-slate-100 pb-4">Key Capabilities</h3>
+                    <ul class="space-y-3 text-sm text-slate-600 list-none p-0">
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">&bull;</span> High availability network and system configuration.</li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">&bull;</span> Resource optimization and hardware health checking.</li>
+                        <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">&bull;</span> Secure and isolated environment setup.</li>
+                    </ul>
+                </section>
+            </aside>
+
+        </section>
+    </div>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-slate-50 py-10 text-sm text-slate-500 font-semibold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span class="text-base font-bold text-slate-900">Munzir.</span>
+            <p>&copy; 2026 Munzir Tamam. All rights reserved.</p>
+            <div class="flex gap-6">
+                <a href="https://linkedin.com/in/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">LinkedIn</a>
+                <a href="https://github.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">GitHub</a>
+                <a href="https://instagram.com/username" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors">Instagram</a>
+                <a href="mailto:munzirt07@gmail.com" class="hover:text-slate-900 transition-colors">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js" defer></script>
+</body>
+</html>
