@@ -23,6 +23,6 @@
 }
 
 [data-slider-dots] button.slide-dot-active {
-    background-color: var(--color-red-500, #b80000);
+    background-color: var(--color-blue-500, #2b7fff);
     width: 1.5rem;
 }
